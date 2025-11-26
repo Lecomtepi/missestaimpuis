@@ -3,13 +3,88 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Inscriptions pour l'élection Miss & Mister Estaimpuis 2026 - 9 mai 2026. Candidatures ouvertes aux 16-25 ans.">
-    <title>Miss & Mister Estaimpuis 2026</title>
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="description" content="Merci pour votre inscription - Miss & Mister Estaimpuis 2026">
+    <title>Merci ! - Miss & Mister Estaimpuis 2026</title>
     <link rel="icon" type="image/jpeg" href="images/logo-miss-mister.jpg">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <style>
+        .thank-you {
+            text-align: center;
+            padding: var(--spacing-xxl) var(--spacing-md);
+            min-height: 60vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .thank-you-icon {
+            width: 80px;
+            height: 80px;
+            background-color: var(--color-light-gray);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: var(--spacing-lg);
+        }
+
+        .thank-you-icon svg {
+            width: 40px;
+            height: 40px;
+            color: var(--color-dark-gray);
+        }
+
+        .thank-you h1 {
+            font-family: var(--font-display);
+            font-size: 2.5rem;
+            font-weight: 600;
+            color: var(--color-black);
+            margin-bottom: var(--spacing-md);
+        }
+
+        .thank-you p {
+            font-size: 1.125rem;
+            color: var(--color-dark-gray);
+            max-width: 500px;
+            margin-bottom: var(--spacing-md);
+        }
+
+        .thank-you .highlight {
+            font-family: var(--font-display);
+            font-style: italic;
+            font-size: 1.25rem;
+            color: var(--color-black);
+            margin-top: var(--spacing-lg);
+        }
+
+        .back-home {
+            display: inline-block;
+            margin-top: var(--spacing-xl);
+            padding: 0.875rem 2rem;
+            background-color: var(--color-black);
+            color: var(--color-white);
+            text-decoration: none;
+            border-radius: var(--border-radius);
+            font-weight: 500;
+            transition: background-color var(--transition), transform var(--transition);
+        }
+
+        .back-home:hover {
+            background-color: var(--color-dark-gray);
+            transform: translateY(-2px);
+        }
+
+        @media (min-width: 600px) {
+            .thank-you h1 {
+                font-size: 3rem;
+            }
+        }
+    </style>
 </head>
 <body>
     <main>
@@ -18,48 +93,25 @@
             <img src="images/logo-miss-mister.jpg" alt="Logo Miss & Mister Estaimpuis 2026" class="logo">
         </header>
 
-        <!-- Hero Section -->
-        <section class="hero">
-            <h1>
-                <span class="hero-intro">Deviens la future</span>
-                <span class="hero-title">Miss Estaimpuis</span>
-                <span class="hero-or">ou le futur</span>
-                <span class="hero-title">Mister Estaimpuis !</span>
-            </h1>
-
-            <div class="hero-content">
-                <p class="hero-lead">
-                    Tu as envie de vivre une expérience unique et enrichissante ?
-                </p>
-                <p>
-                    L'élection de Miss & Mister Estaimpuis 2026 aura lieu le <strong>9 mai 2026</strong>,
-                    et nous recherchons nos futurs candidat(e)s !
-                </p>
-                <p>
-                    Si tu as entre <strong>16 et 25 ans</strong> le jour de l'élection,
-                    que tu as envie de relever un défi,
-                    de t'amuser et de partager un beau
-                    moment avec d'autres jeunes de la région,
-                    alors lance-toi : les inscriptions sont ouvertes !
-                </p>
-                <p class="hero-cta">
-                    Rejoins l'aventure et tente ta chance !<br>
-                    Une expérience pleine de souvenirs t'attend.
-                </p>
-                <p class="deadline">
-                    Date limite des inscriptions: <strong>31 janvier 2026</strong>
-                </p>
+        <!-- Thank You Section -->
+        <section class="thank-you">
+            <div class="thank-you-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+                    <polyline points="22 4 12 14.01 9 11.01"/>
+                </svg>
             </div>
-        </section>
-        <!-- Formulaire d'inscription -->
-        <section class="inscription" id="inscription">
-            <h2>Inscription</h2>
-            <div class="tally-embed">
-                <iframe data-tally-src="https://tally.so/embed/ODQXqY?hideTitle=1&transparentBackground=1&dynamicHeight=1" loading="lazy" width="100%" height="600" frameborder="0" marginheight="0" marginwidth="0" title="Inscription Miss & Mister Estaimpuis 2026"></iframe>
-            </div>
-            <p class="form-privacy-link">
-                En soumettant ce formulaire, vous acceptez notre <a href="confidentialite.html">politique de confidentialité</a>.
+            <h1>Merci pour ton inscription !</h1>
+            <p>
+                Ta candidature a bien été enregistrée. Nous avons hâte de te rencontrer !
             </p>
+            <p>
+                Tu recevras prochainement un email de confirmation avec toutes les informations pour la suite.
+            </p>
+            <p class="highlight">
+                Rendez-vous le 9 mai 2026 !
+            </p>
+            <a href="index.html" class="back-home">Retour à l'accueil</a>
         </section>
 
         <!-- Réseaux sociaux -->
@@ -78,15 +130,6 @@
                 </a>
             </div>
         </section>
-
-        <!-- Partenaires -->
-        <section class="partenaires">
-            <h2>En collaboration avec</h2>
-            <div class="partenaires-logos">
-                <img src="images/logo-commune.jpg" alt="Commune d'Estaimpuis" class="partenaire-logo">
-                <img src="images/logo-miss-hainaut.jpg" alt="Miss Hainaut" class="partenaire-logo">
-            </div>
-        </section>
     </main>
 
     <!-- Footer -->
@@ -94,8 +137,5 @@
         <a href="confidentialite.html">Politique de confidentialité</a>
         <p>&copy; 2026 Miss & Mister Estaimpuis. Tous droits réservés.</p>
     </footer>
-
-    <!-- Tally Script -->
-    <script>var d=document,w="https://tally.so/widgets/embed.js",v=function(){"undefined"!=typeof Tally?Tally.loadEmbeds():d.querySelectorAll("iframe[data-tally-src]:not([src])").forEach((function(e){e.src=e.dataset.tallySrc}))};if("undefined"!=typeof Tally)v();else if(d.querySelector('script[src="'+w+'"]')==null){var s=d.createElement("script");s.src=w,s.onload=v,s.onerror=v,d.body.appendChild(s);}</script>
 </body>
 </html>
